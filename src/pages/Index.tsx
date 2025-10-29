@@ -1,9 +1,9 @@
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import ForFounders from '@/components/ForFounders';
-import ValueProposition from '@/components/ValueProposition';
-import Services from '@/components/Services';
+import ResultSection from '@/components/ResultSection';
 import Process from '@/components/Process';
+import Services from '@/components/Services';
 import Cases from '@/components/Cases';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
@@ -14,9 +14,9 @@ const Index = () => {
       <Header />
       <Hero />
       <ForFounders />
-      <ValueProposition />
-      <Services />
+      <ResultSection />
       <Process />
+      <Services />
       <Cases />
       <Contact />
       <Footer />

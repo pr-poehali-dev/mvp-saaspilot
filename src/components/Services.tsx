@@ -6,11 +6,15 @@ const Services = () => {
     <section id="services" className="py-20 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-white mb-4">🔧 Что мы делаем</h2>
-          <p className="text-xl text-white/70">Конкретные результаты для вашего бизнеса</p>
+          <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+            Сколько это стоит и что входит?
+          </h2>
+          <p className="text-xl text-white/70 max-w-3xl mx-auto">
+            Понятные пакеты услуг. Выбирайте под вашу задачу.
+          </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           <Card className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 group">
             <CardContent className="p-8">
               <div className="flex items-start gap-4 mb-6">
@@ -18,30 +22,24 @@ const Services = () => {
                   <Icon name="Rocket" className="text-[#0EA5E9]" size={28} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">🚀 MVP / SaaS‑продукты</h3>
-                  <p className="text-white/60">Срок: от 3 недель · Бюджет: от 250 000 ₽</p>
+                  <h3 className="text-2xl font-bold text-white mb-2">Пакет «Проверка идеи»</h3>
+                  <p className="text-white/60">от 250 000 ₽</p>
                 </div>
               </div>
-              <ul className="space-y-3 text-white/70 mb-6">
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Создаём цифровые сервисы под ключ — от идеи до продакшена</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Backend: авторизация, роли доступа, биллинг, интеграции</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Frontend: личные кабинеты, таблицы, фильтры, визуализации</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>ИИ‑функции: чат‑ассистенты, автотегирование, поиск</span>
-                </li>
+              <p className="text-white/80 mb-4 text-lg">
+                <strong className="text-white">Для кого:</strong> У вас есть идея, и вам нужно быстро создать работающий прототип для первых пользователей или инвесторов.
+              </p>
+              <p className="text-white/70 mb-4">
+                <strong className="text-white">Что входит:</strong>
+              </p>
+              <ul className="space-y-2 text-white/70 mb-6 ml-4">
+                <li>• Проектирование и дизайн интерфейса</li>
+                <li>• Разработка ключевых функций</li>
+                <li>• Запуск онлайн с доменом</li>
+                <li>• Передача всех доступов</li>
               </ul>
               <div className="pt-4 border-t border-white/10">
-                <p className="text-[#10B981] font-semibold">✓ Работающий продукт с первыми пользователями</p>
+                <p className="text-[#10B981] font-semibold text-lg">✅ Результат: Работающий сайт/приложение за 3-4 недели</p>
               </div>
             </CardContent>
           </Card>
@@ -53,30 +51,23 @@ const Services = () => {
                   <Icon name="Link2" className="text-purple-400" size={28} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">⚙️ Интеграции и автоматизация</h3>
-                  <p className="text-white/60">Срок: от 2–4 недель · Бюджет: от 300 000 ₽</p>
+                  <h3 className="text-2xl font-bold text-white mb-2">Пакет «Автоматизация бизнеса»</h3>
+                  <p className="text-white/60">от 300 000 ₽</p>
                 </div>
               </div>
-              <ul className="space-y-3 text-white/70 mb-6">
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Интеграции: CRM, платёжные шлюзы, API‑платформы</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Автоматизация: уведомления, сбор данных, отчётность</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Сбор данных: классификация и систематизация</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Рассылки и триггерные сценарии</span>
-                </li>
+              <p className="text-white/80 mb-4 text-lg">
+                <strong className="text-white">Для кого:</strong> Вы тратите много времени на рутину (отчёты, уведомления, перенос данных из одной системы в другую).
+              </p>
+              <p className="text-white/70 mb-4">
+                <strong className="text-white">Что входит:</strong>
+              </p>
+              <ul className="space-y-2 text-white/70 mb-6 ml-4">
+                <li>• Интеграция с вашими сервисами (Telegram, CRM, Excel)</li>
+                <li>• Создание системы автоматизации</li>
+                <li>• Настройка уведомлений и отчётов</li>
               </ul>
               <div className="pt-4 border-t border-white/10">
-                <p className="text-[#10B981] font-semibold">✓ Экономия до 40 часов работы в неделю</p>
+                <p className="text-[#10B981] font-semibold text-lg">✅ Результат: Экономия 10-40 часов работы в неделю</p>
               </div>
             </CardContent>
           </Card>
@@ -88,68 +79,28 @@ const Services = () => {
                   <Icon name="Brain" className="text-[#10B981]" size={28} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">🧠 ИИ‑возможности</h3>
-                  <p className="text-white/60">Срок: от 2 недель · Бюджет: от 200 000 ₽</p>
+                  <h3 className="text-2xl font-bold text-white mb-2">Пакет «Умный помощник с ИИ»</h3>
+                  <p className="text-white/60">от 200 000 ₽</p>
                 </div>
               </div>
-              <ul className="space-y-3 text-white/70 mb-6">
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>LLM‑ассистенты: чат‑боты и голосовые помощники</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>RAG‑поиск: точные ответы из ваших документов</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>OCR и классификация: распознавание документов</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Автоматические теги и категоризация контента</span>
-                </li>
+              <p className="text-white/80 mb-4 text-lg">
+                <strong className="text-white">Для кого:</strong> Вы хотите добавить в свой бизнес чат-бота, который отвечает на вопросы клиентов, или систему, которая анализирует документы.
+              </p>
+              <p className="text-white/70 mb-4">
+                <strong className="text-white">Что входит:</strong>
+              </p>
+              <ul className="space-y-2 text-white/70 mb-6 ml-4">
+                <li>• Разработка ИИ-ассистента</li>
+                <li>• Обучение на ваших данных</li>
+                <li>• Интеграция с вашим сайтом/Telegram</li>
               </ul>
               <div className="pt-4 border-t border-white/10">
-                <p className="text-[#10B981] font-semibold">✓ Снижение нагрузки на поддержку до 70%</p>
+                <p className="text-[#10B981] font-semibold text-lg">✅ Результат: Снижение нагрузки на поддержку до 70%</p>
               </div>
             </CardContent>
           </Card>
 
-          <Card className="bg-white/5 border-white/10 backdrop-blur-sm hover:bg-white/10 transition-all duration-300 group">
-            <CardContent className="p-8">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="w-16 h-16 rounded-xl bg-orange-500/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
-                  <Icon name="Settings" className="text-orange-400" size={28} />
-                </div>
-                <div>
-                  <h3 className="text-2xl font-bold text-white mb-2">🧩 Поддержка и DevOps</h3>
-                  <p className="text-white/60">Формат: по подписке</p>
-                </div>
-              </div>
-              <ul className="space-y-3 text-white/70 mb-6">
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>CI/CD и деплой в облаке или on‑premise</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Мониторинг метрик, логов и алертов (RPS, Latency)</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>Безопасность, бэкапы, управление доступами</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <Icon name="Check" className="text-[#10B981] mt-0.5 flex-shrink-0" size={20} />
-                  <span>SLA‑поддержка 24/7 с гарантиями uptime</span>
-                </li>
-              </ul>
-              <div className="pt-4 border-t border-white/10">
-                <p className="text-[#10B981] font-semibold">✓ Uptime 99.9% и быстрое реагирование</p>
-              </div>
-            </CardContent>
-          </Card>
+
         </div>
       </div>
     </section>
