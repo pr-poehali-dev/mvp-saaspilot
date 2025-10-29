@@ -7,11 +7,11 @@ const ForFounders = () => {
       <div className="container mx-auto">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-16 animate-slide-up">
-            <h2 className="text-4xl font-bold text-white mb-4">
-              Зачем фаундеру Python-Team?
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+              Зачем фаундеру этот проект?
             </h2>
-            <p className="text-xl text-white/70">
-              Проверка гипотезы без лишних рисков и трат
+            <p className="text-xl text-white/70 max-w-3xl mx-auto">
+              У вас есть идея, но непонятно, как проверить её без риска потратить бюджет впустую. Мы решаем эту проблему.
             </p>
           </div>
 
@@ -21,23 +21,23 @@ const ForFounders = () => {
                 <div className="w-12 h-12 rounded-lg bg-red-500/20 flex items-center justify-center mb-4">
                   <Icon name="AlertCircle" className="text-red-400" size={24} />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">Боли фаундера</h3>
-                <ul className="space-y-2 text-white/70">
+                <h3 className="text-xl font-bold text-white mb-3">Типичные проблемы</h3>
+                <ul className="space-y-3 text-white/70">
                   <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-1">•</span>
-                    <span>Идея есть, но непонятно с чего начать</span>
+                    <span className="text-red-400 mt-1">❌</span>
+                    <span><strong className="text-white">Не знаю, с чего начать:</strong> Идея есть, но нет понимания технической реализации и архитектуры</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-1">•</span>
-                    <span>Боюсь потратить бюджет впустую</span>
+                    <span className="text-red-400 mt-1">❌</span>
+                    <span><strong className="text-white">Страх неудачи:</strong> Боюсь вложить 2–5 млн ₽ и получить продукт, который никому не нужен</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-1">•</span>
-                    <span>Нет технической экспертизы в команде</span>
+                    <span className="text-red-400 mt-1">❌</span>
+                    <span><strong className="text-white">Нет техкоманды:</strong> В штате нет CTO, разработчиков и DevOps — не понимаю, кого нанимать</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-red-400 mt-1">•</span>
-                    <span>Нужно быстро выйти на рынок</span>
+                    <span className="text-red-400 mt-1">❌</span>
+                    <span><strong className="text-white">Сроки горят:</strong> Конкуренты уже на рынке или окно возможностей быстро закрывается</span>
                   </li>
                 </ul>
               </CardContent>
@@ -48,23 +48,23 @@ const ForFounders = () => {
                 <div className="w-12 h-12 rounded-lg bg-[#10B981]/20 flex items-center justify-center mb-4">
                   <Icon name="CheckCircle" className="text-[#10B981]" size={24} />
                 </div>
-                <h3 className="text-xl font-bold text-white mb-3">Что получаете</h3>
-                <ul className="space-y-2 text-white/70">
+                <h3 className="text-xl font-bold text-white mb-3">Что вы получаете</h3>
+                <ul className="space-y-3 text-white/70">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#10B981] mt-1">✓</span>
-                    <span>Готовый MVP для тестирования гипотезы</span>
+                    <span className="text-[#10B981] mt-1">✅</span>
+                    <span><strong className="text-white">Работающий MVP за 3–6 недель:</strong> Готовый продукт для проверки гипотезы на реальных пользователях</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#10B981] mt-1">✓</span>
-                    <span>Фиксированный бюджет и сроки</span>
+                    <span className="text-[#10B981] mt-1">✅</span>
+                    <span><strong className="text-white">Прозрачность и контроль:</strong> Фиксированная цена от 250 000 ₽, понедельные демо, нет скрытых платежей</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#10B981] mt-1">✓</span>
-                    <span>CTO-консультация на каждом этапе</span>
+                    <span className="text-[#10B981] mt-1">✅</span>
+                    <span><strong className="text-white">Технический партнёр:</strong> CTO в команде — помогает принимать решения, консультирует по архитектуре</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#10B981] mt-1">✓</span>
-                    <span>Запуск в production за 3–6 недель</span>
+                    <span className="text-[#10B981] mt-1">✅</span>
+                    <span><strong className="text-white">Полная передача проекта:</strong> Исходный код, документация, доступы — всё ваше, можете продолжить с любой командой</span>
                   </li>
                 </ul>
               </CardContent>
@@ -78,13 +78,25 @@ const ForFounders = () => {
                   <Icon name="TrendingUp" className="text-[#0EA5E9]" size={24} />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white mb-3">Снижение рисков на 60%</h3>
-                  <p className="text-white/80 mb-4">
-                    Согласно отчёту McKinsey, продуманная стратегия MVP снижает риск провала продукта на <span className="text-[#10B981] font-bold">60%</span> и ускоряет выход на рынок на <span className="text-[#10B981] font-bold">40%</span>.
-                  </p>
-                  <p className="text-white/70">
-                    Мы помогаем проверить гипотезу на реальных пользователях, чтобы вы не тратили ресурсы впустую.
-                  </p>
+                  <h3 className="text-2xl font-bold text-white mb-3">Какие задачи решаем</h3>
+                  <div className="space-y-4">
+                    <div>
+                      <p className="text-white/90 font-medium mb-1">🎯 Валидация идеи за минимальный бюджет</p>
+                      <p className="text-white/70 text-sm">Вместо найма команды за 800 000 ₽/мес — создаём MVP за 250–500 тыс. и проверяем спрос за 4–6 недель</p>
+                    </div>
+                    <div>
+                      <p className="text-white/90 font-medium mb-1">⚡ Быстрый выход на рынок</p>
+                      <p className="text-white/70 text-sm">По данным McKinsey, правильная MVP-стратегия ускоряет запуск на 40% и снижает риски провала на 60%</p>
+                    </div>
+                    <div>
+                      <p className="text-white/90 font-medium mb-1">💼 Техническая экспертиза без найма CTO</p>
+                      <p className="text-white/70 text-sm">Наш CTO участвует в проекте — помогает с архитектурой, технологиями, roadmap. Без долгосрочных обязательств</p>
+                    </div>
+                    <div>
+                      <p className="text-white/90 font-medium mb-1">📊 Данные для инвесторов и следующих раундов</p>
+                      <p className="text-white/70 text-sm">Получаете работающий продукт с первыми пользователями — сильный аргумент для привлечения инвестиций</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </CardContent>
